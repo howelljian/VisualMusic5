@@ -34,14 +34,14 @@ function gotResults(error, results)
     document.getElementById("canvas").style.backgroundColor = "red";
     console.log("C");
     document.getElementById("note").innerHTML = "C";
-    navigator.vibrate([100]);
+    navigator.vibrate(500);
   }
   else if(note =="C#")
   {
     document.getElementById("canvas").style.backgroundColor = "tomato";
     console.log("C#");
     document.getElementById("note").innerHTML = "C#";
-    navigator.vibrate([100]);
+    navigator.vibrate(500);
   }
 
   else if(note =="D")
@@ -49,7 +49,7 @@ function gotResults(error, results)
     document.getElementById("canvas").style.backgroundColor = "orange";
     console.log("D");
     document.getElementById("note").innerHTML = "D";
-    navigator.vibrate([100]);
+    navigator.vibrate(500)
 
   }
   else if(note =="D#")
@@ -57,14 +57,14 @@ function gotResults(error, results)
     document.getElementById("canvas").style.backgroundColor = "lightsalmon";
     console.log("D#");
     document.getElementById("note").innerHTML = "D#";
-    navigator.vibrate([100]);
+    navigator.vibrate(500);
   }
   else if(note =="E")
   {
     document.getElementById("canvas").style.backgroundColor = "yellow";
     console.log("E");
     document.getElementById("note").innerHTML = "E";
-    navigator.vibrate([100]);
+    navigator.vibrate(500);
 
   }
   else if(note =="F")
@@ -72,7 +72,7 @@ function gotResults(error, results)
     document.getElementById("canvas").style.backgroundColor = "gold";
     console.log("F");
     document.getElementById("note").innerHTML = "F";
-    navigator.vibrate([100]);
+    navigator.vibrate(500);
 
   }
   else if(note =="F#")
@@ -80,7 +80,7 @@ function gotResults(error, results)
     document.getElementById("canvas").style.backgroundColor = "lime";
     console.log("F#");
     document.getElementById("note").innerHTML = "F#";
-    navigator.vibrate([100]);
+    navigator.vibrate(500);
 
   }
   else if(note =="G")
@@ -88,7 +88,7 @@ function gotResults(error, results)
     document.getElementById("canvas").style.backgroundColor = "greenyellow";
     console.log("G");
     document.getElementById("note").innerHTML = "G";
-    navigator.vibrate([100]);
+    navigator.vibrate(500);
 
   }
   else if(note =="G#")
@@ -96,7 +96,7 @@ function gotResults(error, results)
     document.getElementById("canvas").style.backgroundColor = "cyan";
     console.log("G#");
     document.getElementById("note").innerHTML = "G#";
-    navigator.vibrate([100]);
+    navigator.vibrate(500);
 
   }
   else if(note == "A")
@@ -104,7 +104,7 @@ function gotResults(error, results)
     document.getElementById("canvas").style.backgroundColor = "deepskyblue";
     console.log("A");
     document.getElementById("note").innerHTML = "A";
-    navigator.vibrate([100]);
+    navigator.vibrate(500);
   }
 
   else if(note == "A#")
@@ -112,7 +112,7 @@ function gotResults(error, results)
     document.getElementById("canvas").style.backgroundColor = "deeporchid";
     console.log("A#");
     document.getElementById("note").innerHTML = "A#";
-    navigator.vibrate([100]);
+    navigator.vibrate(500);
   }
 
   else if(note == "B")
@@ -120,7 +120,7 @@ function gotResults(error, results)
     document.getElementById("canvas").style.backgroundColor = "violet";
     console.log("B");
     document.getElementById("note").innerHTML = "B";
-    navigator.vibrate([100]);
+    navigator.vibrate(500);
   }
   else if(note == "Background Noise")
   {
